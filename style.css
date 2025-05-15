@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    background-color: #ffffff;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #34495e;
+    color: white;
+    padding: 1.2em;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-weight: 300;
+    font-size: 1.1em;
+    margin: 0.2em 0 0;
+}
+
+nav {
+    background: #2c3e50;
+    padding: 0.8em 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: #ecf0f1;
+    margin: 0 18px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #e67e22;
+}
+
+main {
+    max-width: 900px;
+    margin: 2em auto;
+    padding: 0 1em;
+}
+
+section {
+    margin-bottom: 2.5em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #bdc3c7;
+}
+
+h2 {
+    color: #34495e;
+    border-bottom: 2px solid #e67e22;
+    padding-bottom: 0.3em;
+    margin-bottom: 1em;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 1.2em;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 0.9em;
+    margin: 0;
+}
